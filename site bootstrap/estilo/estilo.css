@@ -1,0 +1,72 @@
+header {
+
+    background-color: #121212;
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('/FOnts/Scare\ Taker.otf') format('truetype');
+
+}
+
+section {
+    background-color: #212529;
+    font-family: MinhaFonte;
+
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.socials img {
+    max-height: 30px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
